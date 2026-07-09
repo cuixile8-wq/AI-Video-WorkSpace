@@ -1,0 +1,11 @@
+# Generated visual assets are large; keep prompt knowledge in git by default.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mov
+
+# Local repair/install scripts are machine-specific.
+*.ps1
+
