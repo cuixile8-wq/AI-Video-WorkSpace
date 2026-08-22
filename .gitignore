@@ -1,4 +1,7 @@
-# Temporary analysis outputs
+# Temporary files
+*.tmp
+*.temp
+~$*
 .docx_*
 .read_*.py
 update_*.py
@@ -8,6 +11,21 @@ _docx_work/
 tmp/
 __pycache__/
 tools/
+
+# Storyboard script intermediate outputs
+03-分镜脚本输出/*-序列*.md
+03-分镜脚本输出/*-part*.md
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Script/reference materials that may contain private content
+04-剧本素材/*
+!04-剧本素材/.gitkeep
+05-参考资料/*
+!05-参考资料/.gitkeep
 
 # Video/document review workspaces
 .video-tools/
@@ -20,7 +38,14 @@ qa_*_202*/
 *.7z
 *.rar
 
-# Local generated media
+# Generated visual/media assets are large; keep prompt knowledge in git by default.
+*.png
+*.jpg
+*.jpeg
+*.webp
 *.mp4
 *.mov
 *.avi
+
+# Local repair/install scripts are machine-specific.
+*.ps1
