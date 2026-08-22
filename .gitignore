@@ -1,0 +1,26 @@
+# Temporary analysis outputs
+.docx_*
+.read_*.py
+update_*.py
+extracted_*.txt
+_docx_work/
+.docx_review/
+tmp/
+__pycache__/
+tools/
+
+# Video/document review workspaces
+.video-tools/
+.video_review/
+video_analysis*/
+qa_*_202*/
+
+# Generated packages and large archives
+*.zip
+*.7z
+*.rar
+
+# Local generated media
+*.mp4
+*.mov
+*.avi
